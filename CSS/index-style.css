@@ -1,0 +1,125 @@
+/* Section MarVi & Leidenschaft */
+
+.hero-image {
+  display: flex;
+  background-image: url(../images/Mainpage_hero-MarVi.webp);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.marco-visetti > h1 {
+  text-align: right;
+}
+
+.container-marco {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  background: #62473e;
+}
+
+.marvi-intro, .marvi-handarbeit {
+  padding: 3rem 3rem 3rem 3rem;
+  width: 33.3%;
+}
+
+.welding {
+  height: auto;
+  width: 66.6%;
+}
+
+.welding img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+
+.container-leidenschaft {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: flex-end;
+  background: #62473e;
+}
+
+.container-marco {
+  display: flex;
+  box-sizing: border-box;
+  background: #62473e;
+}
+
+.marvi-work {
+  height: auto;
+  width: 66.6%;
+}
+
+.marvi-work img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* Section Social Media */
+
+.social-media {
+  display: flex;
+  justify-content: space-around;}
+
+.sm-icon {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;  
+}
+
+.sm-icon i {
+  color: #fff;
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+}
+
+.title-sm {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.insta-containers {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 50rem;
+}
+
+.facebook-containers {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 50rem;
+}
+
+.box {
+  margin: 0.4rem 0.4rem;
+  -webkit-box-orient: vertical;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.box img {
+  width: 10.5rem;
+  height: 10.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.insta-containers, .facebook-containers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
